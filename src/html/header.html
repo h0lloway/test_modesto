@@ -1,7 +1,6 @@
+<!-- сайд меню для мобилки -->
 <aside class="side">
-
 	<ul class="side__list list-reset">
-
 		<li class="side__list-item">
 			<a class="side__list-link" href="#">
 				<svg class="" width="40" height="50">
@@ -10,7 +9,6 @@
 				<span class="side__list-descr">my&nbsp;order and <br> documents</span>
 			</a>
 		</li>
-
 		<li class="side__list-item">
 			<a class="side__list-link" href="#">
 				<svg class="" width="40" height="50">
@@ -19,7 +17,6 @@
 				<span class="side__list-descr">balances</span>
 			</a>
 		</li>
-
 		<li class="side__list-item">
 			<a class="side__list-link" href="#">
 				<svg class="" width="40" height="50">
@@ -28,7 +25,6 @@
 				<span class="side__list-descr">clams</span>
 			</a>
 		</li>
-
 		<li class="side__list-item">
 			<a class="side__list-link" href="#">
 				<svg class="" width="40" height="50">
@@ -37,7 +33,6 @@
 				<span class="side__list-descr">Settings</span>
 			</a>
 		</li>
-
 		<li class="side__list-item">
 			<a class="side__list-link" href="#">
 				<svg class="" width="40" height="50">
@@ -46,7 +41,6 @@
 				<span class="side__list-descr">FAQ</span>
 			</a>
 		</li>
-
 		<li class="side__list-item">
 			<a class="side__list-link" href="#">
 				<svg class="" width="40" height="50">
@@ -55,7 +49,6 @@
 				<span class="side__list-descr">Services</span>
 			</a>
 		</li>
-
 		<li class="side__list-item">
 			<a class="side__list-link" href="#">
 				<svg class="" width="40" height="50">
@@ -64,15 +57,12 @@
 				<span class="side__list-descr">Dispo</span>
 			</a>
 		</li>
-
 	</ul>
-
 </aside>
 
+<!-- основной header -->
 <header class="header">
 	<div class="container header__container">
-
-
 		<div class="header__left">
 			<a class="header__logo logo" href="#">
 				<div class="logo__img">
@@ -81,50 +71,76 @@
 			</a>
 		</div>
 
+		<!-- меню навигации -->
 		<nav class="header__nav nav">
-
 			<button class="nav__burger my-btn" type="button">
 				<span></span>
 			</button>
 
-
-
-
 			<div class="nav__wrap">
+				<div class="nav__content">
+					<div class="nav__private-office private-office">
+						<a class="private-office__link" href="#">
+							<svg class="" width="32" height="32">
+								<use xlink:href="img/sprite.svg#private-office"></use>
+							</svg>
+						</a>
+					</div>
+					<ul class="nav__list list-reset nav-list">
+						<li class="nav-list__item">
+							<a class="nav-list__link" href="#">catalogue</a>
+						</li>
+						<li class="nav-list__item">
+							<a class="nav-list__link" href="#">pre order</a>
+						</li>
+						<li class="nav-list__item">
+							<a class="nav-list__link" href="#">tenders</a>
+						</li>
+						<li class="nav-list__item">
+							<a class="nav-list__link" href="#">trade</a>
+						</li>
+						<li class="nav-list__item">
+							<a class="nav-list__link" href="#">web-shop nl</a>
+						</li>
+						<li class="nav-list__item for-desct">
+							<a class="nav-list__link" href="#">...</a>
+						</li>
+						<li class="nav-list__item for-mob">
+							<a class="nav-list__link" href="#">web-shop nl 2</a>
+						</li>
+						<li class="nav-list__item for-mob">
+							<a class="nav-list__link" href="#">web-shop nl 3</a>
+						</li>
+					</ul>
+					<ul class="nav__lang-select list-reset lang-select">
+						<li class="lang-select__item">
+							<a class="lang-select__link active-lang" href="#">
+								<svg class="" width="24" height="20">
+									<use xlink:href="img/sprite.svg#rus-flag"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="lang-select__item">
+							<a class="lang-select__link" href="#">
+								<svg class="" width="24" height="20">
+									<use xlink:href="img/sprite.svg#eng-flag"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="lang-select__item">
+							<a class="lang-select__link" href="#">
+								<svg class="" width="24" height="20">
+									<use xlink:href="img/sprite.svg#spa-flag"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
 
-
-				<ul class="nav__list list-reset list">
-					<li class="list__item">
-						<a class="list__link" href="#">catalogue</a>
-					</li>
-					<li class="list__item">
-						<a class="list__link" href="#">pre order</a>
-					</li>
-					<li class="list__item">
-						<a class="list__link" href="#">tenders</a>
-					</li>
-					<li class="list__item">
-						<a class="list__link" href="#">trade</a>
-					</li>
-					<li class="list__item">
-						<a class="list__link" href="#">web-shop nl</a>
-					</li>
-					<li class="list__item for-desct">
-						<a class="list__link" href="#">...</a>
-					</li>
-					<li class="list__item for-mob">
-						<a class="list__link" href="#">web-shop nl 2</a>
-					</li>
-					<li class="list__item for-mob">
-						<a class="list__link" href="#">web-shop nl 3</a>
-					</li>
-				</ul>
-
+				</div>
 
 			</div>
-
 		</nav>
-
+		<!-- курсы валют -->
 		<div class="header__exchange-rate exchange-rate">
 			<div class="exchange-rate__item">
 				USD/RUB&nbsp;&mdash; 112.00
@@ -134,7 +150,7 @@
 				EUR/RUB&nbsp;&mdash; 112.00
 			</div>
 		</div>
-
+		<!-- элементы в правой части header -->
 		<div class="header__operation operation">
 
 			<button class="operation__btn my-btn">
@@ -146,7 +162,7 @@
 			<div class="operation__account account">
 
 				<div class="account__top top">
-					<div class="top__descr">JKD2-testing1235680...</div>
+					<div class="top__descr">JKD2-testing12356801235680</div>
 					<div class="top__btn my-btn close-btn">
 						<svg class="" width="32" height="32">
 							<use xlink:href="img/sprite.svg#close-btn"></use>
@@ -211,7 +227,7 @@
 				<ul class="account__action-list list-reset action-list">
 					<li class="action-list__item">
 						<a class="action-list__link" href="#">
-							FAQ
+							faq
 						</a>
 					</li>
 					<li class="action-list__item">
@@ -228,14 +244,14 @@
 
 					<button class="private-office__top my-btn drop-btn" type="button" data-path="one">
 						<span class="private-office__img"></span>
-						<span class="private-office__name">JKD2-testing1235680...</span>
+						<span class="private-office__name">JKD2-testing1235680566580</span>
 					</button>
 
 					<div class="private-office__dropdown dropdown-common dropdown-po" data-target="one">
 						<div class="dropdown-po__wrap">
 
 							<div class="dropdown-po__img"></div>
-							<div class="dropdown-po__name">JKD2-testing1235680...</div>
+							<div class="dropdown-po__name">JKD2-testing1235680345680</div>
 							<ul class="dropdown-po__list list-reset">
 								<li class="dropdown-po__list-item">
 									<a class="dropdown-po__list-link" href="#">faq</a>
@@ -261,7 +277,7 @@
 
 								<div class="dropdown-balance__price">$&nbsp;10 000.00</div>
 								<div class="dropdown-balance__btns">
-									<button class="dropdown-balance__btn my-btn">top up</button>
+									<button class="dropdown-balance__btn my-btn">top&nbsp;up</button>
 									<button class="dropdown-balance__btn my-btn">balance</button>
 								</div>
 								<ul class="dropdown-balance__list list-reset">
@@ -350,7 +366,5 @@
 			</div>
 
 		</div>
-
-
 	</div>
 </header>

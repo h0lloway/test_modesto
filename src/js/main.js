@@ -7,19 +7,19 @@ const account = document.querySelector('.operation__btn');
 const accountMenu = document.querySelector('.account');
 const closeBtn = document.querySelector('.close-btn');
 
-burger.addEventListener('click', function () {
+burger.addEventListener('click', () => {
   burger.classList.toggle('active');
   menu.classList.toggle('active');
   aside.classList.toggle('active');
   document.body.classList.toggle('lock');
 });
 
-account.addEventListener('click', function () {
-  accountMenu.classList.toggle('active');
+account.addEventListener('click', () => {
+  accountMenu?.classList.toggle('active');
   document.body.classList.toggle('lock');
 });
 
-closeBtn.addEventListener('click', function () {
+closeBtn.addEventListener('click', () => {
   accountMenu.classList.remove('active')
 });
 
